@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>video landing page</title>
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="#" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#" onclick="toggleMenu();">About</a></li>
+        <li><a href="#" onclick="toggleMenu();">Training</a></li>
+        <li><a href="#" onclick="toggleMenu();">Team</a></li>
+        <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </div>
+    <section class="banner">
+      <header>
+        <h2 class="logo">Tee's Gym</h2>
+        <div class="toggle" onclick="toggleMenu();"></div>
+      </header>
+      <video src="./assets/bg-video2.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2 data-text="Be Stronger">Be Stronger</h2>
+        <h3>Never give up</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quis
+          quam ullam ut quasi assumenda debitis fuga earum. Architecto, laborum
+          consequuntur dolor saepe reprehenderit eos adipisci quam illum natus
+          cumque!
+        </p>
+        <a href="#">Join Us</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="./assets/img/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/img/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/img/instagram-sketched.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
